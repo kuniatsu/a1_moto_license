@@ -1,0 +1,16 @@
+index.htmlの中から該当の情報のinnerTextを取得したい。
+該当する箇所は以下です。
+
+対象1: 問題文
+セレクター例：body > div.container > div:nth-child(2) > div > div > div.card-header.text-start > font > font
+対象例1：Câu 1: Người có Giấy phép lái xe mô tô hạng A1 được cấp sau ngày 01/01/2025 được phép điều khiển loại xe nào dưới đây?
+対象例2：Câu 2: Trong các biển dưới đây biển nào là biển "Hết tốc độ tối thiểu"?
+対象例3：Câu 3: Người điều khiển phương tiện tham gia giao thông đường bộ phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn trong các trường hợp nào dưới đây?
+
+対象2: 回答
+セレクター例：body > div.container > div:nth-child(2) > div > div:nth-child(9) > div.card-body.text-start > div:nth-child(1)
+対象例1：1.Có báo hiệu cảnh báo nguy hiểm hoặc có chướng ngại vật trên đường; chuyển hướng xe chạy hoặc tầm nhìn bị hạn chế.
+対象例2：2.Nơi cầu, cống hẹp, đập tràn, đường ngầm, hầm chui, hầm đường bộ; có vật nuôi đi trên đường hoặc chăn thả ở ven đường.
+対象例3：3.Điểm dừng xe, đỗ xe trên đường bộ có khách đang lên, xuống xe.
+
+また、correct-option-review"がついている回答にはインナーテキストの末に[正解]をつけてください。

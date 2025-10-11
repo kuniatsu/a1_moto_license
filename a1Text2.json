@@ -1,0 +1,263 @@
+[
+  {
+    "question_number": 1,
+    "question_text": "Câu 1: * Hành vi nào sau đây bị nghiêm cấm?",
+    "options": [
+      "Điều khiển xe cơ giới lạng lách, đánh võng, rú ga liên tục khi tham gia giao thông trên đường.",
+      "Xúc phạm, đe dọa, cản trở, chống đối hoặc không chấp hành hiệu lệnh, hướng dẫn, yêu cầu kiểm tra, kiểm soát của người thi hành công vụ về bảo đảm trật tự, an toàn giao thông đường bộ.",
+      "Cả hai ý trên. [正解]"
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      3
+    ]
+  },
+  {
+    "question_number": 2,
+    "question_text": "Câu 2: Khi điều khiển xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy, những hành vi nào sau đây không được phép?",
+    "options": [
+      "Buông cả hai tay; sử dụng xe để kéo, đẩy xe khác, vật khác; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy. [正解]",
+      "Sử dụng xe để chở người hoặc hàng hóa; để chân chạm xuống đất khi khởi hành.",
+      "Đội mũ bảo hiểm; chạy xe đúng tốc độ quy định và chấp hành đúng quy tắc giao thông đường bộ.",
+      "Chở người ngồi sau dưới 16 tuổi."
+    ],
+    "option_count": 4,
+    "correct_answer_numbers": [
+      1
+    ]
+  },
+  {
+    "question_number": 3,
+    "question_text": "Câu 3: Hành vi nào dưới đây bị nghiêm cấm?",
+    "options": [
+      "Sử dụng xe đạp đi trên các tuyến quốc lộ.",
+      "Rải vật sắc nhọn, đổ chất gây trơn trượt trên đường bộ. [正解]",
+      "Cả hai ý trên."
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      2
+    ]
+  },
+  {
+    "question_number": 4,
+    "question_text": "Câu 4: Người lái xe không được vượt xe khác khi gặp trường hợp nào dưới đây?",
+    "options": [
+      "Trên cầu hẹp có một làn đường; nơi đường giao nhau, đường bộ giao nhau cùng mức với đường sắt; khi gặp xe ưu tiên. [正解]",
+      "Trên cầu có từ 02 làn xe trở lên.",
+      "Trên đường có 02 làn đường được phân chia làn bằng vạch kẻ nét đứt."
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      1
+    ]
+  },
+  {
+    "question_number": 5,
+    "question_text": "Câu 5: *Hành vi nào sau đây bị cấm?",
+    "options": [
+      "Lắp đặt, sử dụng thiết bị âm thanh, ánh sáng trên xe cơ giới, xe máy chuyên dùng gây mất trật tự, an toàn giao thông đường bộ.",
+      "Cản trở người, phương tiện tham gia giao thông trên đường bộ; ném gạch, đất, đá, cát hoặc vật thể khác vào người, phương tiện đang tham gia giao thông trên đường bộ.",
+      "Cả hai ý trên. [正解]"
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      3
+    ]
+  },
+  {
+    "question_number": 6,
+    "question_text": "Câu 6: Khi điều khiển phương tiện tham gia giao thông, hành vi nào sau đây bị cấm?",
+    "options": [
+      "Dùng tay cầm và sử dụng điện thoại hoặc thiết bị điện tử khác. [正解]",
+      "Chỉ được chở người trên thùng xe ô tô chở hàng trong trường hợp chở người đi làm nhiệm vụ cứu nạn, cứu hộ, phòng, chống thiên tai, dịch bệnh hoặc thực hiện nhiệm vụ khẩn cấp."
+    ],
+    "option_count": 2,
+    "correct_answer_numbers": [
+      1
+    ]
+  },
+  {
+    "question_number": 7,
+    "question_text": "Câu 7: *Người lái xe, người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy phải thực hiện quy định nào dưới đây?",
+    "options": [
+      "Đội mũ bảo hiểm theo đúng quy chuẩn kỹ thuật quốc gia và cài quai đúng quy cách. [正解]",
+      "Người lái xe phải đội mũ bảo hiểm, người được chở trên xe không nhất thiết phải đội mũ bảo hiểm.",
+      "Phải đội mũ bảo hiểm nhưng không nhất thiết phải cài quai."
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      1
+    ]
+  },
+  {
+    "question_number": 8,
+    "question_text": "Câu 8: *Hành vi đưa xe cơ giới, xe máy chuyên dùng tham gia giao thông đường bộ nào dưới đây bị cấm?",
+    "options": [
+      "Không có chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường.",
+      "Hết niên hạn sử dụng.",
+      "Cả hai ý trên. [正解]"
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      3
+    ]
+  },
+  {
+    "question_number": 9,
+    "question_text": "Câu 9: Tổ chức đua xe được phép thực hiện khi nào?",
+    "options": [
+      "Trên đường phố không có người qua lại.",
+      "Được người dân ủng hộ.",
+      "Được cơ quan có thẩm quyền cấp phép. [正解]"
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      3
+    ]
+  },
+  {
+    "question_number": 10,
+    "question_text": "Câu 10: *Người lái xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy không được thực hiện các hành vi nào dưới đây?",
+    "options": [
+      "Đi xe dàn hàng ngang; buông cả hai tay.",
+      "Sử dụng xe để kéo, đẩy xe khác, vật khác, dẫn dắt vật nuôi, mang, vác và chở vật cồng kềnh; chở người đứng trên xe, giá đèo hàng hoặc ngồi trên tay lái; xếp hàng hóa trên xe quá giới hạn quy định.",
+      "Ngồi về một bên điều khiển xe; đứng, nằm trên xe điều khiển xe; thay người lái xe khi xe đang chạy; quay người về phía sau để điều khiển xe hoặc bịt mắt điều khiển xe; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy.",
+      "Cả ba ý trên. [正解]"
+    ],
+    "option_count": 4,
+    "correct_answer_numbers": [
+      4
+    ]
+  },
+  {
+    "question_number": 11,
+    "question_text": "Câu 11: * Hành vi đua xe trái phép bị xử lý như thế nào?",
+    "options": [
+      "Chỉ bị nhắc nhở.",
+      "Tùy theo mức độ của hành vi vi phạm có thể bị xử lý hành chính hoặc xử lý hình sự. [正解]"
+    ],
+    "option_count": 2,
+    "correct_answer_numbers": [
+      2
+    ]
+  },
+  {
+    "question_number": 12,
+    "question_text": "Câu 12: *Người lái xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy không được thực hiện các hành vi nào dưới đây?",
+    "options": [
+      "Đi xe dàn hàng ngang; đi xe vào phần đường dành cho người đi bộ và phương tiện khác.",
+      "Sử dụng ô, thiết bị âm thanh, trừ thiết bị trợ thính.",
+      "Cả hai ý trên. [正解]"
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      3
+    ]
+  },
+  {
+    "question_number": 13,
+    "question_text": "Câu 13: * Người điều khiển phương tiện tham gia giao thông đường bộ mà trong máu hoặc hơi thở có nồng độ cồn có bị nghiêm cấm không?",
+    "options": [
+      "Bị nghiêm cấm. [正解]",
+      "Không bị nghiêm cấm.",
+      "Không bị nghiêm cấm, nếu nồng độ cồn trong máu ở mức nhẹ, có thể điều khiển phương tiện tham gia giao thông."
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      1
+    ]
+  },
+  {
+    "question_number": 14,
+    "question_text": "Câu 14: *Người lái xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy không được thực hiện hành vi nào sau đây?",
+    "options": [
+      "Đi trên phần đường, làn đường quy định, chấp hành hiệu lệnh của người điều khiển giao thông, đèn tín hiệu giao thông.",
+      "Đi xe dàn hàng ngang, đi xe vào phần đường dành cho người đi bộ. [正解]",
+      "Cả hai ý trên."
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      2
+    ]
+  },
+  {
+    "question_number": 15,
+    "question_text": "Câu 15: * Theo Luật Phòng chống tác hại của rượu, bia, đối tượng nào dưới đây bị cấm sử dụng rượu, bia khi tham gia giao thông?",
+    "options": [
+      "Người điều khiển xe ô tô, xe mô tô, xe đạp, xe gắn máy. [正解]",
+      "Người được chở trên xe cơ giới.",
+      "Cả hai ý trên."
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      1
+    ]
+  },
+  {
+    "question_number": 16,
+    "question_text": "Câu 16: * Người lái xe được phép vượt xe trên cầu hẹp có một làn đường, đường cong có tầm nhìn bị hạn chế hay không?",
+    "options": [
+      "Được phép vượt khi đường vắng.",
+      "Không được phép vượt. [正解]",
+      "Được phép vượt khi có việc gấp."
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      2
+    ]
+  },
+  {
+    "question_number": 17,
+    "question_text": "Câu 17: * Người điều khiển xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy có được phép sử dụng xe để kéo hoặc đẩy các phương tiện khác khi tham gia giao thông không?",
+    "options": [
+      "Được phép.",
+      "Nếu phương tiện được kéo, đẩy có khối lượng nhỏ hơn phương tiện của mình.",
+      "Tùy trường hợp.",
+      "Không được phép. [正解]"
+    ],
+    "option_count": 4,
+    "correct_answer_numbers": [
+      4
+    ]
+  },
+  {
+    "question_number": 18,
+    "question_text": "Câu 18: * Hành vi giao xe ô tô, mô tô cho người nào sau đây tham gia giao thông đường bộ bị nghiêm cấm?",
+    "options": [
+      "Người chưa đủ tuổi theo quy định.",
+      "Người không có giấy phép lái xe.",
+      "Người có giấy phép lái xe nhưng đã bị trừ hết 12 điểm.",
+      "Cả ba ý trên. [正解]"
+    ],
+    "option_count": 4,
+    "correct_answer_numbers": [
+      4
+    ]
+  },
+  {
+    "question_number": 19,
+    "question_text": "Câu 19: * Muốn vượt xe phía trước, người lái xe mô tô phải có tín hiệu như thế nào dưới đây để bảo đảm an toàn?",
+    "options": [
+      "Bấm còi liên tục để xe phía trước biết xe mình xin vượt.",
+      "Rú ga liên tục để xe phía trước biết xe mình xin vượt.",
+      "Báo hiệu nhấp nháy bằng đèn chiếu sáng phía trước hoặc còi. [正解]"
+    ],
+    "option_count": 3,
+    "correct_answer_numbers": [
+      3
+    ]
+  },
+  {
+    "question_number": 20,
+    "question_text": "Câu 20: * Khi điều khiển xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy, những hành vi nào sau đây không được phép?",
+    "options": [
+      "Buông cả hai tay; đứng, nằm trên xe điều khiển xe; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy. [正解]",
+      "Chở tối đa hai người phía sau khi chở người bệnh đi cấp cứu, áp giải người có hành vi vi phạm pháp luật, trẻ em dưới 12 tuổi và người già yếu hoặc người khuyết tật."
+    ],
+    "option_count": 2,
+    "correct_answer_numbers": [
+      1
+    ]
+  }
+]
