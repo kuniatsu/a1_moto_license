@@ -1,0 +1,1 @@
+@a1Text.jsonから　＠a1Text.csvを作成してください。
