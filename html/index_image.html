@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi Bằng Lái Xe A1 - Câu Hỏi Có Hình Ảnh (61 câu)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            max-width: 900px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .question-card {
+            margin-bottom: 20px;
+            border: 2px solid #dee2e6;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .question-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .question-image {
+            max-width: 100%;
+            max-height: 400px;
+            display: block;
+            margin: 20px auto;
+        }
+        .option-item {
+            padding: 12px;
+            margin: 8px 0;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .option-item:hover {
+            background-color: #f8f9fa;
+            border-color: #667eea;
+        }
+        .option-item.selected {
+            background-color: #e7f1ff;
+            border-color: #0d6efd;
+        }
+        .option-item.correct {
+            background-color: #d1e7dd;
+            border-color: #198754;
+        }
+        .option-item.incorrect {
+            background-color: #f8d7da;
+            border-color: #dc3545;
+        }
+        .explanation {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            display: none;
+        }
+        .result-box {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        .submit-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card border-0 shadow-sm mb-4">
+            <div class="card-body text-center">
+                <h1 class="display-5">Thi Bằng Lái Xe Mô Tô A1</h1>
+                <h2 class="h4 text-muted">Câu Hỏi Có Hình Ảnh (61 câu)</h2>
+                <p class="text-muted">Các câu hỏi có hình ảnh minh họa - Tỷ lệ đúng cao 80%+</p>
+            </div>
+        </div>
+
+        <div id="questions-container"></div>
+
+        <button id="submit-btn" class="btn btn-primary btn-lg submit-btn" style="display: none;">
+            <i class="bi bi-check-circle"></i> Nộp Bài
+        </button>
+    </div>
+
+    <div id="result-box" class="result-box" style="display: none;">
+        <h5>Kết Quả</h5>
+        <p class="mb-1">Đúng: <strong><span id="correct-count">0</span></strong></p>
+        <p class="mb-0">Tổng: <strong>61</strong></p>
+    </div>
+
+    <script>
+        let questions = [];
+        let userAnswers = {};
+
+        // Load questions from JSON
+        async function loadQuestions() {
+            try {
+                const response = await fetch('../a1Text_image.json');
+                const data = await response.json();
+                questions = data.data;
+                renderQuestions();
+            } catch (error) {
+                console.error('Error loading questions:', error);
+                alert('Không thể tải dữ liệu câu hỏi. Vui lòng thử lại sau.');
+            }
+        }
+
+        // Render all questions
+        function renderQuestions() {
+            const container = document.getElementById('questions-container');
+
+            questions.forEach((q, index) => {
+                const questionCard = document.createElement('div');
+                questionCard.className = 'card question-card';
+                questionCard.innerHTML = `
+                    <div class="question-header">
+                        Câu ${index + 1}: ${q.question_text}
+                    </div>
+                    <div class="card-body">
+                        ${q.image ? `<img src="../images/${q.question_number}.jpg" class="question-image" alt="Hình câu hỏi ${q.question_number}" onerror="this.src='../images/placeholder.jpg'">` : ''}
+
+                        <div class="options">
+                            ${renderOptions(q, index)}
+                        </div>
+
+                        <div class="explanation" id="explanation-${index}">
+                            <strong><i class="bi bi-lightbulb-fill text-warning"></i> Giải thích:</strong><br>
+                            Đáp án đúng: <strong>${q.correct_answer_text}</strong>
+                            ${q.explanation ? `<br>${q.explanation}` : ''}
+                        </div>
+                    </div>
+                `;
+                container.appendChild(questionCard);
+            });
+
+            document.getElementById('submit-btn').style.display = 'block';
+        }
+
+        // Render options for a question
+        function renderOptions(question, questionIndex) {
+            let optionsHTML = '';
+            const optionCount = question.option_count;
+
+            for (let i = 1; i <= optionCount; i++) {
+                const optionKey = `option${i}`;
+                const optionText = question[optionKey];
+
+                if (optionText && optionText.trim() !== '') {
+                    optionsHTML += `
+                        <div class="option-item" data-question="${questionIndex}" data-option="${i}" onclick="selectOption(${questionIndex}, ${i})">
+                            <span class="option-number">${i}.</span> ${optionText}
+                        </div>
+                    `;
+                }
+            }
+
+            return optionsHTML;
+        }
+
+        // Handle option selection
+        function selectOption(questionIndex, optionNumber) {
+            // Remove previous selection
+            const allOptions = document.querySelectorAll(`[data-question="${questionIndex}"]`);
+            allOptions.forEach(opt => opt.classList.remove('selected'));
+
+            // Add selection to clicked option
+            const selectedOption = document.querySelector(`[data-question="${questionIndex}"][data-option="${optionNumber}"]`);
+            selectedOption.classList.add('selected');
+
+            // Save user answer
+            userAnswers[questionIndex] = optionNumber;
+        }
+
+        // Submit and check answers
+        function submitAnswers() {
+            let correctCount = 0;
+
+            questions.forEach((q, index) => {
+                const userAnswer = userAnswers[index];
+                const correctAnswer = q.correct_answer_numbers[0];
+                const allOptions = document.querySelectorAll(`[data-question="${index}"]`);
+
+                allOptions.forEach(opt => {
+                    const optionNum = parseInt(opt.dataset.option);
+                    opt.style.pointerEvents = 'none'; // Disable clicking
+
+                    if (optionNum === correctAnswer) {
+                        opt.classList.add('correct');
+                    }
+
+                    if (userAnswer === optionNum && optionNum !== correctAnswer) {
+                        opt.classList.add('incorrect');
+                    }
+                });
+
+                // Show explanation
+                document.getElementById(`explanation-${index}`).style.display = 'block';
+
+                // Count correct answers
+                if (userAnswer === correctAnswer) {
+                    correctCount++;
+                }
+            });
+
+            // Show result
+            document.getElementById('correct-count').textContent = correctCount;
+            document.getElementById('result-box').style.display = 'block';
+            document.getElementById('submit-btn').style.display = 'none';
+
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            // Alert result
+            const percentage = (correctCount / questions.length * 100).toFixed(1);
+            const passed = percentage >= 80;
+
+            setTimeout(() => {
+                alert(`Kết quả: ${correctCount}/${questions.length} câu đúng (${percentage}%)\n\n${passed ? '🎉 ĐẠT! Chúc mừng bạn!' : '❌ CHƯA ĐẠT. Hãy ôn tập thêm nhé!'}`);
+            }, 500);
+        }
+
+        // Initialize
+        document.getElementById('submit-btn').addEventListener('click', submitAnswers);
+        loadQuestions();
+    </script>
+</body>
+</html>
