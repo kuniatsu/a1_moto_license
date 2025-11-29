@@ -16,6 +16,45 @@
 
 ---
 
+### 全28問の詳細一覧
+
+| 問題番号 | 正解番号 | Required | 画像 | 問題文（冒頭） |
+|---------|---------|---------|------|--------------|
+| 27 | 1 | ❌ | ❌ | Theo tín hiệu đèn, xe nào được phép đi? |
+| 47 | 1 | ❌ | ❌ | Trường hợp này xe nào được quyền đi trước? |
+| 54 | 2 | ❌ | ❌ | Chiều dài đoạn đường 500 m từ nơi đặt biển này... |
+| 59 | 2 | ❌ | ❌ | Trong nhóm các phương tiện giao thông đường bộ... |
+| 60 | 2 | ❌ | ❌ | Xe nào được quyền đi trước trong trường hợp này? |
+| 73 | 2 | ❌ | ❌ | Người có giấy phép lái xe chưa bị trừ hết 12 điểm... |
+| 75 | 1 | ❌ | ❌ | Khi điều khiển phương tiện tham gia giao thông... |
+| 89 | 1 | ❌ | ❌ | Theo tín hiệu đèn, xe nào đi là đúng quy tắc... |
+| 101 | 1 | ❌ | ❌ | Tại đoạn đường có biển "Làn đường dành riêng"... |
+| 104 | 1 | ❌ | ❌ | Xe nào được quyền đi trước trong trường hợp này? |
+| 130 | 1 | ❌ | ❌ | Người lái xe có văn hóa giao thông khi tham gia... |
+| 139 | 1 | ❌ | ❌ | Biển này có hiệu lực đối với xe mô tô hai bánh... |
+| 144 | 1 | ❌ | ❌ | Khi điều khiển xe trên đường vòng người lái xe... |
+| 149 | 2 | ❌ | ❌ | Bạn có được phép vượt xe mô tô phía trước không? |
+| 151 | 1 | ❌ | ❌ | Biển báo này có ý nghĩa như thế nào? |
+| 159 | 1 | ❌ | ❌ | Ba biển này có hiệu lực như thế nào? |
+| 166 | 1 | ❌ | ❌ | Khi điều khiển xe mô tô hai bánh, xe mô tô ba bánh... |
+| 178 | 2 | ❌ | ❌ | Bạn có được phép vượt xe mô tô phía trước không? |
+| 180 | 1 | ❌ | ❌ | Số 50 ghi trên biển báo dưới đây có ý nghĩa... |
+| 182 | 1 | ❌ | ❌ | Trách nhiệm của tổ chức, cá nhân đứng tên... |
+| 193 | 1 | ❌ | ❌ | Gặp biển báo dưới đây, người lái xe có bắt buộc... |
+| 197 | 1 | ❌ | ❌ | Người lái xe không điều khiển xe đi đúng làn đường... |
+| 203 | 2 | ❌ | ❌ | Biển báo dưới đây có ý nghĩa như thế nào? |
+| 208 | 2 | ❌ | ❌ | Hành vi đua xe trái phép bị xử lý như thế nào? |
+| 214 | 1 | ❌ | ❌ | Xe nào được quyền đi trước trong trường hợp này? |
+| 221 | 1 | ❌ | ❌ | Biển báo này có ý nghĩa như thế nào? |
+| 236 | 2 | ❌ | ❌ | Các hành vi nào sau đây bị cấm đối với phương tiện... |
+| 241 | 2 | ❌ | ❌ | Xe nào được quyền đi trước trong trường hợp này? |
+
+**凡例**: ✅ = あり / ❌ = なし
+
+**注意**: 現在のデータでは、28問すべてが非Required問題（一発アウトではない）、かつ非画像問題となっています。
+
+---
+
 ## 2. 選択肢1が選択肢2より長い場合の成果率分析
 
 **該当問題数**: 7問　100%
