@@ -7,6 +7,7 @@
     "Required": "必須問題かどうか（true/false）",
     "keyword": "問題のキーワード",
     "image": "画像が含まれるかどうか（true/false）",
+    "image_name": "画像ファイル名（拡張子付き、例: 525.jpg、画像がない場合は空文字列）",
     "option1": "選択肢1のテキスト",
     "option1_length": "選択肢1の文字数",
     "option2": "選択肢2のテキスト",
@@ -37,7 +38,7 @@
       "correct_answer_numbers": [
         1
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "xe mô tô",
       "image": false,
       "option1": "Xe mô tô hai bánh có dung tích xi-lanh đến 125 cm3 hoặc có công suất động cơ điện đến 11 kW.",
@@ -60,7 +61,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "443.jpg"
     },
     {
       "question_number": 2,
@@ -69,7 +71,7 @@
       "correct_answer_numbers": [
         3
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "tốc độ",
       "image": true,
       "option1": "Biển 1.",
@@ -92,7 +94,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 3,
@@ -101,7 +104,7 @@
       "correct_answer_numbers": [
         4
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "tốc độ",
       "image": false,
       "option1": "Có báo hiệu cảnh báo nguy hiểm hoặc có chướng ngại vật trên đường; chuyển hướng xe chạy hoặc tầm nhìn bị hạn chế.",
@@ -124,7 +127,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "443.jpg"
     },
     {
       "question_number": 4,
@@ -133,7 +137,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "biển",
       "image": true,
       "option1": "Biển 1.",
@@ -156,7 +160,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 5,
@@ -165,7 +170,7 @@
       "correct_answer_numbers": [
         3
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "giao thông",
       "image": false,
       "option1": "Xe con (B), xe mô tô (C).",
@@ -188,7 +193,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "548.jpg"
     },
     {
       "question_number": 6,
@@ -197,7 +203,7 @@
       "correct_answer_numbers": [
         4
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "giao thông",
       "image": false,
       "option1": "Người tham gia giao thông đường bộ ở các hướng phải dừng lại.",
@@ -220,7 +226,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "44.jpg"
     },
     {
       "question_number": 7,
@@ -229,7 +236,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "biển",
       "image": false,
       "option1": "Báo khoảng cách đến nơi cấm bóp còi.",
@@ -252,7 +259,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "351.jpg"
     },
     {
       "question_number": 8,
@@ -261,7 +269,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "biển",
       "image": true,
       "option1": "Biển 1 và Biển 2.",
@@ -284,7 +292,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "377.jpg"
     },
     {
       "question_number": 9,
@@ -293,7 +302,7 @@
       "correct_answer_numbers": [
         3
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "giao thông",
       "image": false,
       "option1": "Không được vượt.",
@@ -316,7 +325,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "307.jpg"
     },
     {
       "question_number": 10,
@@ -325,7 +335,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "biển",
       "image": true,
       "option1": "Biển 1.",
@@ -348,7 +358,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 11,
@@ -357,7 +368,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "biển",
       "image": true,
       "option1": "Biển 1.",
@@ -380,7 +391,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "43.jpg"
     },
     {
       "question_number": 12,
@@ -389,7 +401,7 @@
       "correct_answer_numbers": [
         4
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "giao thông",
       "image": false,
       "option1": "Xe con (A), xe mô tô, xe con (B), xe đạp.",
@@ -412,7 +424,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "520.jpg"
     },
     {
       "question_number": 13,
@@ -421,7 +434,7 @@
       "correct_answer_numbers": [
         1
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "tốc độ",
       "image": true,
       "option1": "Biển 1.",
@@ -444,7 +457,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "364.jpg"
     },
     {
       "question_number": 14,
@@ -453,7 +467,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "xe mô tô",
       "image": false,
       "option1": "60 km/h.",
@@ -476,7 +490,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "406.jpg"
     },
     {
       "question_number": 15,
@@ -485,7 +500,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "biển",
       "image": true,
       "option1": "Biển 1.",
@@ -508,7 +523,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 16,
@@ -517,7 +533,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "giao thông",
       "image": false,
       "option1": "Phần mặt đường và lề đường.",
@@ -540,7 +556,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "487.jpg"
     },
     {
       "question_number": 17,
@@ -549,7 +566,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "giao thông",
       "image": false,
       "option1": "Xe tải, xe khách, xe con, xe mô tô.",
@@ -572,7 +589,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 18,
@@ -581,7 +599,7 @@
       "correct_answer_numbers": [
         1
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "biển",
       "image": true,
       "option1": "Biển 1.",
@@ -604,7 +622,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "454.jpg"
     },
     {
       "question_number": 19,
@@ -613,7 +632,7 @@
       "correct_answer_numbers": [
         3
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "giao thông",
       "image": false,
       "option1": "Xe của bạn, xe mô tô, xe con.",
@@ -636,7 +655,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "567.jpg"
     },
     {
       "question_number": 20,
@@ -645,7 +665,7 @@
       "correct_answer_numbers": [
         1
       ],
-      "Required": true,
+      "Required": false,
       "keyword": "an toàn",
       "image": false,
       "option1": "Quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn.",
@@ -668,7 +688,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "600.jpg"
     },
     {
       "question_number": 21,
@@ -700,7 +721,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 22,
@@ -732,7 +754,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "505.jpg"
     },
     {
       "question_number": 23,
@@ -764,7 +787,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 24,
@@ -796,7 +820,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 25,
@@ -828,7 +853,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 26,
@@ -860,7 +886,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "499.jpg"
     },
     {
       "question_number": 27,
@@ -892,7 +919,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 28,
@@ -924,7 +952,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "462.jpg"
     },
     {
       "question_number": 29,
@@ -956,7 +985,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "373.jpg"
     },
     {
       "question_number": 30,
@@ -988,7 +1018,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "353.jpg"
     },
     {
       "question_number": 31,
@@ -1020,7 +1051,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 32,
@@ -1052,7 +1084,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 33,
@@ -1084,7 +1117,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "386.jpg"
     },
     {
       "question_number": 34,
@@ -1116,7 +1150,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 35,
@@ -1148,7 +1183,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 36,
@@ -1180,7 +1216,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 37,
@@ -1212,7 +1249,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 38,
@@ -1221,7 +1259,7 @@
       "correct_answer_numbers": [
         1
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "xe mô tô",
       "image": false,
       "option1": "Đội mũ bảo hiểm theo đúng quy chuẩn kỹ thuật quốc gia và cài quai đúng quy cách.",
@@ -1244,7 +1282,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 39,
@@ -1276,7 +1315,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 40,
@@ -1308,7 +1348,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "529.jpg"
     },
     {
       "question_number": 41,
@@ -1340,7 +1381,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 42,
@@ -1372,7 +1414,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "322.jpg"
     },
     {
       "question_number": 43,
@@ -1404,7 +1447,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "435.jpg"
     },
     {
       "question_number": 44,
@@ -1436,7 +1480,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "527.jpg"
     },
     {
       "question_number": 45,
@@ -1468,7 +1513,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "492.jpg"
     },
     {
       "question_number": 46,
@@ -1477,7 +1523,7 @@
       "correct_answer_numbers": [
         1
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "xe mô tô",
       "image": false,
       "option1": "Buông cả hai tay; sử dụng xe để kéo, đẩy xe khác, vật khác; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy.",
@@ -1500,7 +1546,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 47,
@@ -1532,7 +1579,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 48,
@@ -1564,7 +1612,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "445.jpg"
     },
     {
       "question_number": 49,
@@ -1596,7 +1645,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 50,
@@ -1628,7 +1678,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "479.jpg"
     },
     {
       "question_number": 51,
@@ -1660,7 +1711,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "308.jpg"
     },
     {
       "question_number": 52,
@@ -1692,7 +1744,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 53,
@@ -1724,7 +1777,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 54,
@@ -1756,7 +1810,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "351.jpg"
     },
     {
       "question_number": 55,
@@ -1788,7 +1843,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "390.jpg"
     },
     {
       "question_number": 56,
@@ -1820,7 +1876,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "321.jpg"
     },
     {
       "question_number": 57,
@@ -1852,7 +1909,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 58,
@@ -1884,7 +1942,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 59,
@@ -1916,7 +1975,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "517.jpg"
     },
     {
       "question_number": 60,
@@ -1948,7 +2008,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 61,
@@ -1980,7 +2041,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "458.jpg"
     },
     {
       "question_number": 62,
@@ -2012,7 +2074,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 63,
@@ -2021,7 +2084,7 @@
       "correct_answer_numbers": [
         1
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "giao thông",
       "image": false,
       "option1": "Bị nghiêm cấm.",
@@ -2044,7 +2107,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "379.jpg"
     },
     {
       "question_number": 64,
@@ -2076,7 +2140,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 65,
@@ -2108,7 +2173,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 66,
@@ -2140,7 +2206,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 67,
@@ -2149,7 +2216,7 @@
       "correct_answer_numbers": [
         3
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "xe mô tô",
       "image": false,
       "option1": "Đi xe dàn hàng ngang; đi xe vào phần đường dành cho người đi bộ và phương tiện khác.",
@@ -2172,7 +2239,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 68,
@@ -2181,7 +2249,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "vượt",
       "image": false,
       "option1": "Được phép vượt khi đường vắng.",
@@ -2204,7 +2272,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 69,
@@ -2236,7 +2305,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 70,
@@ -2268,7 +2338,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "371.jpg"
     },
     {
       "question_number": 71,
@@ -2277,7 +2348,7 @@
       "correct_answer_numbers": [
         4
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "xe mô tô",
       "image": false,
       "option1": "Được phép.",
@@ -2300,7 +2371,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 72,
@@ -2332,7 +2404,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 73,
@@ -2364,7 +2437,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 74,
@@ -2396,7 +2470,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 75,
@@ -2405,7 +2480,7 @@
       "correct_answer_numbers": [
         1
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "giao thông",
       "image": false,
       "option1": "Dùng tay cầm và sử dụng điện thoại hoặc thiết bị điện tử khác.",
@@ -2428,7 +2503,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "565.jpg"
     },
     {
       "question_number": 76,
@@ -2460,7 +2536,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 77,
@@ -2492,7 +2569,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "464.jpg"
     },
     {
       "question_number": 78,
@@ -2524,7 +2602,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "477.jpg"
     },
     {
       "question_number": 79,
@@ -2556,7 +2635,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 80,
@@ -2565,7 +2645,7 @@
       "correct_answer_numbers": [
         1
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "không",
       "image": false,
       "option1": "Trên cầu hẹp có một làn đường; nơi đường giao nhau, đường bộ giao nhau cùng mức với đường sắt; khi gặp xe ưu tiên.",
@@ -2588,7 +2668,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "317.jpg"
     },
     {
       "question_number": 81,
@@ -2620,7 +2701,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 82,
@@ -2652,7 +2734,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 83,
@@ -2684,7 +2767,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "507.jpg"
     },
     {
       "question_number": 84,
@@ -2716,7 +2800,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 85,
@@ -2748,7 +2833,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 86,
@@ -2780,7 +2866,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 87,
@@ -2812,7 +2899,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 88,
@@ -2844,7 +2932,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "384.jpg"
     },
     {
       "question_number": 89,
@@ -2876,7 +2965,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "499.jpg"
     },
     {
       "question_number": 90,
@@ -2908,7 +2998,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "430.jpg"
     },
     {
       "question_number": 91,
@@ -2917,7 +3008,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "cấm",
       "image": false,
       "option1": "Sử dụng xe đạp đi trên các tuyến quốc lộ.",
@@ -2940,7 +3031,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 92,
@@ -2972,7 +3064,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 93,
@@ -2981,7 +3074,7 @@
       "correct_answer_numbers": [
         4
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "xe mô tô",
       "image": false,
       "option1": "Đi xe dàn hàng ngang; buông cả hai tay.",
@@ -3004,7 +3097,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 94,
@@ -3036,7 +3130,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 95,
@@ -3068,7 +3163,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 96,
@@ -3100,7 +3196,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "391.jpg"
     },
     {
       "question_number": 97,
@@ -3132,7 +3229,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "317.jpg"
     },
     {
       "question_number": 98,
@@ -3164,7 +3262,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "461.jpg"
     },
     {
       "question_number": 99,
@@ -3196,7 +3295,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "398.jpg"
     },
     {
       "question_number": 100,
@@ -3228,7 +3328,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 101,
@@ -3260,7 +3361,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "465.jpg"
     },
     {
       "question_number": 102,
@@ -3292,7 +3394,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "456.jpg"
     },
     {
       "question_number": 103,
@@ -3324,7 +3427,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "333.jpg"
     },
     {
       "question_number": 104,
@@ -3356,7 +3460,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "525.jpg"
     },
     {
       "question_number": 105,
@@ -3388,7 +3493,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "394.jpg"
     },
     {
       "question_number": 106,
@@ -3420,7 +3526,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "404.jpg"
     },
     {
       "question_number": 107,
@@ -3452,7 +3559,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "334.jpg"
     },
     {
       "question_number": 108,
@@ -3484,7 +3592,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 109,
@@ -3516,7 +3625,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "449.jpg"
     },
     {
       "question_number": 110,
@@ -3548,7 +3658,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "592.jpg"
     },
     {
       "question_number": 111,
@@ -3580,7 +3691,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 112,
@@ -3612,7 +3724,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 113,
@@ -3644,7 +3757,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "372.jpg"
     },
     {
       "question_number": 114,
@@ -3676,7 +3790,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "308.jpg"
     },
     {
       "question_number": 115,
@@ -3708,7 +3823,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 116,
@@ -3740,7 +3856,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 117,
@@ -3772,7 +3889,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 118,
@@ -3804,7 +3922,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "442.jpg"
     },
     {
       "question_number": 119,
@@ -3836,7 +3955,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "438.jpg"
     },
     {
       "question_number": 120,
@@ -3868,7 +3988,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 121,
@@ -3900,7 +4021,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 122,
@@ -3909,7 +4031,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "xe mô tô",
       "image": false,
       "option1": "Đi trên phần đường, làn đường quy định, chấp hành hiệu lệnh của người điều khiển giao thông, đèn tín hiệu giao thông.",
@@ -3932,7 +4054,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "329.jpg"
     },
     {
       "question_number": 123,
@@ -3964,7 +4087,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 124,
@@ -3996,7 +4120,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 125,
@@ -4028,7 +4153,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "308.jpg"
     },
     {
       "question_number": 126,
@@ -4060,7 +4186,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "416.jpg"
     },
     {
       "question_number": 127,
@@ -4069,7 +4196,7 @@
       "correct_answer_numbers": [
         1
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "giao thông",
       "image": false,
       "option1": "Người điều khiển xe ô tô, xe mô tô, xe đạp, xe gắn máy.",
@@ -4092,7 +4219,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "378.jpg"
     },
     {
       "question_number": 128,
@@ -4124,7 +4252,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 129,
@@ -4156,7 +4285,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "509.jpg"
     },
     {
       "question_number": 130,
@@ -4188,7 +4318,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "401.jpg"
     },
     {
       "question_number": 131,
@@ -4220,7 +4351,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 132,
@@ -4252,7 +4384,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 133,
@@ -4284,7 +4417,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 134,
@@ -4316,7 +4450,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "375.jpg"
     },
     {
       "question_number": 135,
@@ -4348,7 +4483,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "463.jpg"
     },
     {
       "question_number": 136,
@@ -4380,7 +4516,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 137,
@@ -4389,7 +4526,7 @@
       "correct_answer_numbers": [
         3
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "xe mô tô",
       "image": false,
       "option1": "Bấm còi liên tục để xe phía trước biết xe mình xin vượt.",
@@ -4412,7 +4549,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "349.jpg"
     },
     {
       "question_number": 138,
@@ -4444,7 +4582,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 139,
@@ -4476,7 +4615,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 140,
@@ -4485,7 +4625,7 @@
       "correct_answer_numbers": [
         3
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "cấm",
       "image": false,
       "option1": "Điều khiển xe cơ giới lạng lách, đánh võng, rú ga liên tục khi tham gia giao thông trên đường.",
@@ -4508,7 +4648,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "436.jpg"
     },
     {
       "question_number": 141,
@@ -4540,7 +4681,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 142,
@@ -4572,7 +4714,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "553.jpg"
     },
     {
       "question_number": 143,
@@ -4604,7 +4747,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 144,
@@ -4636,7 +4780,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 145,
@@ -4668,7 +4813,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 146,
@@ -4700,7 +4846,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 147,
@@ -4732,7 +4879,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 148,
@@ -4764,7 +4912,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "556.jpg"
     },
     {
       "question_number": 149,
@@ -4796,7 +4945,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 150,
@@ -4828,7 +4978,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "583.jpg"
     },
     {
       "question_number": 151,
@@ -4860,7 +5011,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "423.jpg"
     },
     {
       "question_number": 152,
@@ -4892,7 +5044,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "328.jpg"
     },
     {
       "question_number": 153,
@@ -4924,7 +5077,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 154,
@@ -4956,7 +5110,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "353.jpg"
     },
     {
       "question_number": 155,
@@ -4988,7 +5143,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 156,
@@ -5020,7 +5176,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 157,
@@ -5052,7 +5209,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 158,
@@ -5084,7 +5242,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "353.jpg"
     },
     {
       "question_number": 159,
@@ -5116,7 +5275,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 160,
@@ -5148,7 +5308,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "393.jpg"
     },
     {
       "question_number": 161,
@@ -5180,7 +5341,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "374.jpg"
     },
     {
       "question_number": 162,
@@ -5212,7 +5374,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "437.jpg"
     },
     {
       "question_number": 163,
@@ -5244,7 +5407,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "397.jpg"
     },
     {
       "question_number": 164,
@@ -5276,7 +5440,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 165,
@@ -5308,7 +5473,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "43.jpg"
     },
     {
       "question_number": 166,
@@ -5317,7 +5483,7 @@
       "correct_answer_numbers": [
         1
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "xe mô tô",
       "image": false,
       "option1": "Buông cả hai tay; đứng, nằm trên xe điều khiển xe; sử dụng chân chống hoặc vật khác quệt xuống đường khi xe đang chạy.",
@@ -5340,7 +5506,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "508.jpg"
     },
     {
       "question_number": 167,
@@ -5372,7 +5539,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 168,
@@ -5404,7 +5572,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "439.jpg"
     },
     {
       "question_number": 169,
@@ -5436,7 +5605,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "539.jpg"
     },
     {
       "question_number": 170,
@@ -5468,7 +5638,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "309.jpg"
     },
     {
       "question_number": 171,
@@ -5500,7 +5671,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 172,
@@ -5532,7 +5704,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 173,
@@ -5564,7 +5737,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "380.jpg"
     },
     {
       "question_number": 174,
@@ -5596,7 +5770,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 175,
@@ -5628,7 +5803,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "45.jpg"
     },
     {
       "question_number": 176,
@@ -5660,7 +5836,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 177,
@@ -5692,7 +5869,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "42.jpg"
     },
     {
       "question_number": 178,
@@ -5724,7 +5902,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "556.jpg"
     },
     {
       "question_number": 179,
@@ -5756,7 +5935,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "40.jpg"
     },
     {
       "question_number": 180,
@@ -5788,7 +5968,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 181,
@@ -5820,7 +6001,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "318.jpg"
     },
     {
       "question_number": 182,
@@ -5852,7 +6034,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 183,
@@ -5884,7 +6067,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 184,
@@ -5916,7 +6100,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "415.jpg"
     },
     {
       "question_number": 185,
@@ -5948,7 +6133,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 186,
@@ -5980,7 +6166,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 187,
@@ -6012,7 +6199,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 188,
@@ -6044,7 +6232,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 189,
@@ -6076,7 +6265,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "381.jpg"
     },
     {
       "question_number": 190,
@@ -6108,7 +6298,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "568.jpg"
     },
     {
       "question_number": 191,
@@ -6140,7 +6331,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "358.jpg"
     },
     {
       "question_number": 192,
@@ -6172,7 +6364,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 193,
@@ -6204,7 +6397,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "459.jpg"
     },
     {
       "question_number": 194,
@@ -6236,7 +6430,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "44.jpg"
     },
     {
       "question_number": 195,
@@ -6268,7 +6463,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 196,
@@ -6300,7 +6496,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 197,
@@ -6332,7 +6529,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 198,
@@ -6364,7 +6562,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 199,
@@ -6396,7 +6595,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "490.jpg"
     },
     {
       "question_number": 200,
@@ -6428,7 +6628,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "562.jpg"
     },
     {
       "question_number": 201,
@@ -6460,7 +6661,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "370.jpg"
     },
     {
       "question_number": 202,
@@ -6492,7 +6694,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 203,
@@ -6524,7 +6727,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 204,
@@ -6556,7 +6760,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "374.jpg"
     },
     {
       "question_number": 205,
@@ -6588,7 +6793,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "399.jpg"
     },
     {
       "question_number": 206,
@@ -6620,7 +6826,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 207,
@@ -6652,7 +6859,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 208,
@@ -6661,7 +6869,7 @@
       "correct_answer_numbers": [
         2
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "hành",
       "image": false,
       "option1": "Chỉ bị nhắc nhở.",
@@ -6684,7 +6892,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "326.jpg"
     },
     {
       "question_number": 209,
@@ -6716,7 +6925,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 210,
@@ -6725,7 +6935,7 @@
       "correct_answer_numbers": [
         3
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "cấm",
       "image": false,
       "option1": "Lắp đặt, sử dụng thiết bị âm thanh, ánh sáng trên xe cơ giới, xe máy chuyên dùng gây mất trật tự, an toàn giao thông đường bộ.",
@@ -6748,7 +6958,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "419.jpg"
     },
     {
       "question_number": 211,
@@ -6780,7 +6991,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 212,
@@ -6812,7 +7024,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "503.jpg"
     },
     {
       "question_number": 213,
@@ -6844,7 +7057,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "504.jpg"
     },
     {
       "question_number": 214,
@@ -6876,7 +7090,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "525.jpg"
     },
     {
       "question_number": 215,
@@ -6908,7 +7123,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "386.jpg"
     },
     {
       "question_number": 216,
@@ -6940,7 +7156,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 217,
@@ -6972,7 +7189,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "540.jpg"
     },
     {
       "question_number": 218,
@@ -7004,7 +7222,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "455.jpg"
     },
     {
       "question_number": 219,
@@ -7036,7 +7255,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 220,
@@ -7068,7 +7288,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "339.jpg"
     },
     {
       "question_number": 221,
@@ -7100,7 +7321,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 222,
@@ -7132,7 +7354,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "327.jpg"
     },
     {
       "question_number": 223,
@@ -7164,7 +7387,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 224,
@@ -7196,7 +7420,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 225,
@@ -7228,7 +7453,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 226,
@@ -7260,7 +7486,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 227,
@@ -7292,7 +7519,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "402.jpg"
     },
     {
       "question_number": 228,
@@ -7324,7 +7552,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 229,
@@ -7333,7 +7562,7 @@
       "correct_answer_numbers": [
         3
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "giao thông",
       "image": false,
       "option1": "Không có chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường.",
@@ -7356,7 +7585,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "445.jpg"
     },
     {
       "question_number": 230,
@@ -7388,7 +7618,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 231,
@@ -7420,7 +7651,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "426.jpg"
     },
     {
       "question_number": 232,
@@ -7452,7 +7684,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "434.jpg"
     },
     {
       "question_number": 233,
@@ -7484,7 +7717,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 234,
@@ -7516,7 +7750,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "394.jpg"
     },
     {
       "question_number": 235,
@@ -7548,7 +7783,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "417.jpg"
     },
     {
       "question_number": 236,
@@ -7580,7 +7816,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 237,
@@ -7612,7 +7849,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 238,
@@ -7644,7 +7882,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "329.jpg"
     },
     {
       "question_number": 239,
@@ -7676,7 +7915,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "495.jpg"
     },
     {
       "question_number": 240,
@@ -7708,7 +7948,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 241,
@@ -7740,7 +7981,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 242,
@@ -7772,7 +8014,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "538.jpg"
     },
     {
       "question_number": 243,
@@ -7781,7 +8024,7 @@
       "correct_answer_numbers": [
         4
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "giao thông",
       "image": false,
       "option1": "Người chưa đủ tuổi theo quy định.",
@@ -7804,7 +8047,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 244,
@@ -7836,7 +8080,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 245,
@@ -7868,7 +8113,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "500.jpg"
     },
     {
       "question_number": 246,
@@ -7900,7 +8146,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "543.jpg"
     },
     {
       "question_number": 247,
@@ -7909,7 +8156,7 @@
       "correct_answer_numbers": [
         3
       ],
-      "Required": false,
+      "Required": true,
       "keyword": "chức",
       "image": false,
       "option1": "Trên đường phố không có người qua lại.",
@@ -7932,7 +8179,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "559.jpg"
     },
     {
       "question_number": 248,
@@ -7964,7 +8212,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": ""
     },
     {
       "question_number": 249,
@@ -7996,7 +8245,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "348.jpg"
     },
     {
       "question_number": 250,
@@ -8028,7 +8278,8 @@
       "predicted_answer": "",
       "rule_match": "",
       "fallback_strategy": "",
-      "final_recommendation": ""
+      "final_recommendation": "",
+      "image_name": "444.jpg"
     }
   ]
 }
